@@ -8,9 +8,10 @@
     font-family: Geneva, sans-serif;
     text-align: center;
     font-size: 40pt;
+    margin-top: 100px;
 }
-body{
-    margin: 0px;
+body {
+    background: #E3E3E2;
 }
 
 
@@ -22,20 +23,19 @@ table,th,td{
 }
 
 header{
-    background-color: #19a80f;
+    background-color: rgba(113, 210, 39,0.5);
     font-family: Geneva, sans-serif;
     text-align: center;
     font-size:xx-large;
-    margin-left: 0px;
-    margin-right: 0px;
+
 }
+
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    border-radius: 10px;
+    width: 50%;
 }
 
 p{
