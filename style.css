@@ -9,6 +9,10 @@
     text-align: center;
     font-size: 40pt;
 }
+body{
+    margin: 0px;
+}
+
 
 table,th,td{
     font-family: Geneva, sans-serif;
@@ -18,17 +22,19 @@ table,th,td{
 }
 
 header{
-    background-color: #19A80F;
+    background-color: #19a80f;
     font-family: Geneva, sans-serif;
     text-align: center;
     font-size:xx-large;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     border-radius: 10px;
 }
 
@@ -36,4 +42,8 @@ p{
     font-family: Geneva, sans-serif;
     margin: 20px;
     text-align: center;
+}
+
+footer{
+    position: center;
 }
