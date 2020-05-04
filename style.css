@@ -1,3 +1,6 @@
+*{
+    font-family: Geneva, sans-serif;
+}
 .Überschrift{
     text-align: center;
     font-size: 40pt;
@@ -17,7 +20,7 @@
 
 body {
     background: linear-gradient(to bottom, #DEDEDE 0%, #ffffff 100%);
-
+    margin: 0px;
 }
 
 
@@ -28,6 +31,7 @@ body {
 
 header{
     background-color: rgba(113, 210, 39,0.5);
+    font-family: Geneva, sans-serif;
     text-align: center;
     color:white;
     font-size:80pt;
@@ -58,73 +62,71 @@ header{
     text-align: center;
 
 }
-
-
-*{
-    font-family: Geneva, sans-serif;
-}
-
-#vorteile {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-
-}
-
-#vorteile td, #vorteile th {
-    border: 1px solid #ffffff;
-    padding: 10px;
-}
-
-#vorteile th {
-    padding-top:15px;
-    padding-bottom:15px;
-    background-color: rgba(113, 210, 39, 0.5);
-    color: white;
-}
-
-#vorteile tr:nth-child(even){
-    background-color: #DEDEDE;
-}
-
-#vorteile tr:hover {
-    background-color: #ffffff;
-}
-
-
-*{
-    font-family: Geneva, sans-serif;
-}
-
-#vorteile {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-
-}
-
-#vorteile td, #vorteile th {
-    border: 1px solid #ffffff;
-    padding: 10px;
-}
-
-#vorteile th {
-    padding-top:15px;
-    padding-bottom:15px;
-    background-color: rgba(113, 210, 39, 0.5);
-    color: white;
-}
-
-#vorteile tr:nth-child(even){
-    background-color: #DEDEDE;
-}
-
-#vorteile tr:hover {
-    background-color: #ffffff;
-}
 a.footerlink:link {
     color: white;
 }
 a.footerlink:visited {color: greenyellow;}
 a.footerlink:active {color: white;}
 a.footerlink:hover {color: black;}
+
+
+
+
+#vorteile {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#vorteile td, #vorteile th {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+#vorteile th {
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: rgba(113, 210, 39, 0.5);
+    color: white;
+}
+
+#vorteile tr:nth-child(even){
+    background-color: #DEDEDE;
+}
+
+#vorteile tr:hover {
+    background-color: #ffffff;
+}
+
+
+*{
+    font-family: Geneva, sans-serif;
+}
+
+#vorteile {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#vorteile td, #vorteile th {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+#vorteile th {
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: rgba(113, 210, 39, 0.5);
+    color: white;
+}
+
+#vorteile tr:nth-child(even){
+    background-color: #DEDEDE;
+}
+
+#vorteile tr:hover {
+    background-color: #ffffff;
+}
