@@ -1,12 +1,10 @@
 .Überschrift{
-    font-family: Geneva, sans-serif;
     text-align: center;
     font-size: 40pt;
-    margin:70px
+    margin:70px;
 }
 
 .Hauptüberschrift{
-    font-family: Geneva, sans-serif;
     text-align: center;
     font-size: 60pt;
     margin:70px;
@@ -16,26 +14,22 @@
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 0px;
+
 }
 
 body {
     background: linear-gradient(to bottom, #DEDEDE 0%, #ffffff 100%);
-    margin: 0px;
+
 }
 
 
 
-table,th,td{
-    font-family: Geneva, sans-serif;
-    border-collapse: collapse;
-    text-align: center;
-    border: 1px solid black;
-}
+
+
+
 
 header{
     background-color: rgba(113, 210, 39,0.5);
-    font-family: Geneva, sans-serif;
     text-align: center;
     color:white;
     font-size:80pt;
@@ -49,13 +43,13 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     width: 95%;
     border-radius: 100px;
 
 }
 
 p{
-    font-family: Geneva, sans-serif;
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
@@ -64,4 +58,35 @@ p{
 
 footer{
     position: center;
+}
+
+*{
+    font-family: Geneva, sans-serif;
+}
+
+#vorteile {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#vorteile td, #vorteile th {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+#vorteile th {
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: rgba(113, 210, 39, 0.5);
+    color: white;
+}
+
+#vorteile tr:nth-child(even){
+    background-color: #DEDEDE;
+}
+
+#vorteile tr:hover {
+    background-color: #ffffff;
 }
