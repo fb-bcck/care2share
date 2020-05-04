@@ -24,11 +24,6 @@ body {
 }
 
 
-
-
-
-
-
 header{
     background-color: rgba(113, 210, 39,0.5);
     font-family: Geneva, sans-serif;
@@ -53,61 +48,43 @@ header{
 
 
 .footer{
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 200px;
     background-color: dimgray;
-    color: white;
     text-align: center;
+}
+.footer ul{
+    margin: 30px;
+    list-style: none;
+}
+.footer li{
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+.footer a:visited,a:link{
+    font-size: x-large;
+}
 
+.footer a:hover,a:active{
+    font-size: x-large;
 }
-a.footerlink:link {
-    color: white;
+
+.footerlink{
+
+    position: center;
 }
-a.footerlink:visited {color: greenyellow;}
-a.footerlink:active {color: white;}
-a.footerlink:hover {color: black;}
 
 
 
 
 #vorteile {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
     text-align: center;
-
-}
-
-#vorteile td, #vorteile th {
-    border: 1px solid #ffffff;
-    padding: 10px;
-}
-
-#vorteile th {
-    padding-top:15px;
-    padding-bottom:15px;
-    background-color: rgba(113, 210, 39, 0.5);
-    color: white;
-}
-
-#vorteile tr:nth-child(even){
-    background-color: #DEDEDE;
-}
-
-#vorteile tr:hover {
-    background-color: #ffffff;
-}
-
-
-*{
-    font-family: Geneva, sans-serif;
-}
-
-#vorteile {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
+    margin: auto;
 
 }
 
