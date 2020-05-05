@@ -22,7 +22,7 @@
     content: "";
     display: block;
     margin: auto;
-    width:65%;
+    width:440px;
     padding-top: 20px;
     border-bottom: solid 5px;
     border-bottom-color: rgba(113, 210, 39,0.8);
@@ -48,6 +48,7 @@ header{
     color:white;
     font-size:80pt;
     height: 150px;
+    border-radius:25px;
 
 }
 
