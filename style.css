@@ -13,6 +13,17 @@
     font-size: 60pt;
     margin:70px;
     padding-bottom: 30px;
+    position: relative;
+
+
+}
+
+.Hauptüberschrift:after{
+    content: "";
+    display: block;
+    margin: auto;
+    width:40%;
+    padding-top: 20px;
     border-bottom: solid 5px;
     border-bottom-color: rgba(113, 210, 39,0.8);
 }
@@ -36,7 +47,6 @@ header{
     text-align: center;
     color:white;
     font-size:80pt;
-
     height: 150px;
 
 }
