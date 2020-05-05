@@ -46,6 +46,16 @@ header{
 
 }
 
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 70%;
+    border-radius: 100px;
+
+}
+
 
 .footer{
     left: 0;
