@@ -1,14 +1,14 @@
 *{
     font-family: Geneva, sans-serif;
 }
-.Überschrift{
+.Ueberschrift{
     text-align: center;
     font-size: 40pt;
     margin:15px 70px 40px 70px;
     padding-top: 25px;
 }
 
-.Hauptüberschrift{
+.Hauptueberschrift{
     text-align: center;
     font-size: 60pt;
     margin:70px;
@@ -18,7 +18,7 @@
 
 }
 
-.Hauptüberschrift:after{
+.Hauptueberschrift:after{
     content: "";
     display: block;
     margin: auto;
@@ -107,8 +107,7 @@ header{
 }
 
 .footerlink{
-
-    position: center;
+    text-align: center;
 }
 
 
