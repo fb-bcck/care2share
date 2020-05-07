@@ -6,11 +6,13 @@
     font-size: 40pt;
     margin:15px 70px 40px 70px;
     padding-top: 25px;
+    font-weight: bold;
 }
 
 .Hauptueberschrift{
     text-align: center;
     font-size: 60pt;
+
     margin:70px;
     padding-bottom: 30px;
     position: relative;
@@ -88,30 +90,38 @@ header{
     text-align: center;
     border-radius: 20px;
 
+
 }
 .footer ul{
     margin: 30px;
     padding: 20px;
     list-style: none;
+
 }
 .footer li{
     display: inline-block;
     margin: 20px 30px 1px 30px;
 }
 .footer a:visited,a:link{
-    font-size: large;
+    font-size: x-large;
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
 
 .footer a:hover,a:active{
-    font-size: large;
+    font-size: x-large;
+    font-weight: bold;
     text-decoration: none;
     color: white;
+}
+.footer ul li{
+    font-size: 30px;
 }
 
 .footerlink{
     text-align: center;
+
 }
 
 
